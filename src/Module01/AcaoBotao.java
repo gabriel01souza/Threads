@@ -19,10 +19,7 @@ public class AcaoBotao implements ActionListener {
 
     @Override
     public void actionPerformed(ActionEvent e) {
-        boolean showing = false;
-
         this.resultado.setText("Calculating");
-        telaCalculador.inicializarCampos();
 
         TarefaMulticacao tarefa = new TarefaMulticacao(primeiro, segundo, resultado);
         Thread thread = new Thread(tarefa, "Thread calculadora");

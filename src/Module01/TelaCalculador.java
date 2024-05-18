@@ -12,7 +12,6 @@ public class TelaCalculador {
     JLabel resultado = new JLabel("           ?          ");
 
     public void inicializarCampos() {
-        painel.setLayout(new BoxLayout(painel, BoxLayout.Y_AXIS));
         //quando clica no botão será executado a classe Multiplicador
         botao.addActionListener(new AcaoBotao(primeiro, segundo, resultado));
 
