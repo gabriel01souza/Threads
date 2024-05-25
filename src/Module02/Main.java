@@ -4,8 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    public static void main(String[] args) {
 
+    /**
+     *  MORE THAN ONE ACTIVITY IN THE SAME MOMENT, SEVERAL THREADS
+     * @param args
+     */
+    public static void main(String[] args) {
         String nome = "as";
         String pathDefault = "src/Module02/textFiles/";
         List<String> files = new ArrayList<>(

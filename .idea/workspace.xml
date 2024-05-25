@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a6ba10d-5d5a-455c-a93a-b800196d6dc6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Module03/Bathroom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module03/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module03/TaskNumber1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module03/TaskNumber2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module03/TaskNumber3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module04/List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module04/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module04/TaskAddElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module01/AcaoBotao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module01/AcaoBotao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module01/ImprimeString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module01/ImprimeString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module01/TelaCalculador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module01/TelaCalculador.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module01/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module01/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Module02/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module02/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +33,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2gcQqOiQQL5vahYuTWUbTmm8lw5" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -35,13 +43,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Debug",
+    "Application.Main.executor": "Run",
     "Application.Module02.Main.executor": "Run",
+    "Application.Module03.Main.executor": "Debug",
+    "Application.Module04.Main.executor": "Run",
     "Application.TelaCalculador.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/temp/thread/Threads",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -49,6 +60,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Module04" />
       <recent name="Module02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -56,8 +68,11 @@
       <recent name="C:\temp\thread\Threads" />
       <recent name="C:\temp\thread\Threads\src\Module02" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Module03" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.Module04.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Module01.Main" />
       <module name="Threads" />
@@ -78,12 +93,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Module03.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Module03.Main" />
+      <module name="Threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Module03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Module04.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Module04.Main" />
+      <module name="Threads" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Module04.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
+      <item itemvalue="Application.Module04.Main" />
+      <item itemvalue="Application.Module03.Main" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.Module02.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Module04.Main" />
+        <item itemvalue="Application.Module03.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.Module02.Main" />
       </list>
