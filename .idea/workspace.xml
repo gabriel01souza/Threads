@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a6ba10d-5d5a-455c-a93a-b800196d6dc6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Module06/List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Module06/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Module06/TaskAddElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Module06/TaskShowList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module07/DBMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module07/PoolConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module07/TaskAccessDb.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module07/TaskAccessDbProcedure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Module07/TransactionManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Module04/List.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Module04/List.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.DBMain.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.Module02.Main.executor": "Run",
     "Application.Module03.Main.executor": "Debug",
@@ -56,6 +57,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="Module07" />
       <recent name="Module06" />
       <recent name="Module04" />
       <recent name="Module02" />
@@ -77,13 +79,13 @@
       <recent name="Module03" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Module06.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Module01.Main" />
+  <component name="RunManager" selected="Application.DBMain">
+    <configuration name="DBMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Module07.DBMain" />
       <module name="Threads" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Module01.*" />
+          <option name="PATTERN" value="Module07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,19 +146,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.DBMain" />
       <item itemvalue="Application.Module04.Main" />
       <item itemvalue="Application.Module05.Main" />
       <item itemvalue="Application.Module06.Main" />
       <item itemvalue="Application.Module03.Main" />
-      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DBMain" />
         <item itemvalue="Application.Module06.Main" />
         <item itemvalue="Application.Module05.Main" />
         <item itemvalue="Application.Module04.Main" />
         <item itemvalue="Application.Module03.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
