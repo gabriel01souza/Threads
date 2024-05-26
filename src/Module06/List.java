@@ -1,7 +1,7 @@
-package Module04;
+package Module06;
 
 /**
- *    Instead of using Vector(), first time I've practiced with this object.
+ * Instead of using Vector(), first time I've practiced with this object.
  */
 public class List {
 
@@ -11,6 +11,12 @@ public class List {
     public synchronized void addElements(String element) {
         this.elements[index] = element;
         this.index++;
+
+
+        if (this.elements.length == index) {
+            System.out.println("Terminou de adicionar os itens");
+            this.notify();
+        }
     }
 
     public int size() {
@@ -19,5 +25,9 @@ public class List {
 
     public String getElement(int position) {
         return this.elements[position];
+    }
+
+    public boolean isFull() {
+        return this.elements.length == index;
     }
 }
